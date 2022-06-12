@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html"/>
 <xsl:template match="/">
-<link rel="stylesheet" href="/css/styles.css"/>
+<link rel="stylesheet" href="styles.css"/>
 <html>
 
 <head>
@@ -11,11 +11,11 @@
   
 <div class="sticky">
 	<ul class="navigation">
-		<a href="/index.html">INICIO</a>
-		<a href="/index.html">SOBRE MÍ</a>
-		<a href="/recetas/recetas.html">RECETAS</a>
-		<a href="/contacto/contacto.html">CONTACTO</a>
-		<a href="/otras cosas/otrascosas.html">OTRAS COSAS</a>
+		<a href="index.html">INICIO</a>
+		<a href="index.html">SOBRE MÍ</a>
+		<a href="recetas.html">RECETAS</a>
+		<a href="contacto.html">CONTACTO</a>
+		<a href="otrascosas.html">OTRAS COSAS</a>
 	</ul>
 </div>
 </head>
@@ -43,7 +43,7 @@
       <td><xsl:value-of select="celiacos"/></td>
       <td><xsl:value-of select="anticancer"/></td>
       <td>
-        <a href="/recetas/receta.html" class="buttn">Ver</a>
+        <a href="receta.html" class="buttn">Ver</a>
       </td>
           
     </tr>
